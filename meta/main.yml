@@ -3,9 +3,9 @@ dependencies: []
 
 galaxy_info:
   role_name: docker
-  author: bsmeding
-  description: Docker for Linux, Forked from geerlingguy.docker.
-  company: "b@rtsmeding.nl"
+  author: Ajinkya Ramos
+  description: Docker for Linux, Used to Forked from geerlingguy.docker.
+  company: "cdacmumbai.in"
   license: "license (BSD, MIT)"
   min_ansible_version: 2.10
   platforms:
@@ -23,7 +23,7 @@ galaxy_info:
         - focal
         - jammy
     - name: Alpine
-      version:
+      versions:
         - all
     - name: ArchLinux
       versions:
